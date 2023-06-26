@@ -1,0 +1,104 @@
+.container-fluid
+{
+    padding: 3% 15%;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif ;
+}
+#title{
+    background-color: #ff4c68;
+    z-index: 9;
+}
+.title-image
+{
+    width: 60%;
+    transform: rotate(25deg); 
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: whitesmoke;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.nav-link
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+.icon-features
+{
+    color: #C54E57;
+    padding: 0% 42%;
+    
+    
+}
+#features
+{
+    
+    padding: 7% 15%;
+
+    
+}
+.icon-features:hover
+{
+    color: #ff4c68;
+}
+.text-features
+{
+    color: black;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5%;
+    
+}
+.text-text
+{
+    color: grey;
+    font-family: 'Montserrat Semibold';
+    font-style: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 5%;
+}
+.container
+{
+    display: block;
+    background-color: white;
+}
+.con{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    padding-top: 5%;
+
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
